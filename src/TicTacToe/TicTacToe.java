@@ -11,6 +11,8 @@ public class TicTacToe {
 		t.startGame();
 		
 		takeInput("Hi");
+		
+		System.out.println("Hello Game");
 	}
 	
 	public static String takeInput(String str) {
