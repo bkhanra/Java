@@ -6,7 +6,7 @@ public class TicTacToe {
 	private Player player1, player2;
 	private Board board;
 	
-	private static void main(String args[]) {
+	public static void main(String args[]) {
 		TicTacToe t = new TicTacToe();
 		t.startGame();
 		
@@ -19,7 +19,8 @@ public class TicTacToe {
 		System.out.println();
 		return sc.next();
 	}
-	
+
+	//This will start the game
 	public void startGame() {
 		//take player input
 		//create the board
