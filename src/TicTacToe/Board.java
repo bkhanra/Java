@@ -7,7 +7,8 @@ public class Board {
 	private char p1Symbol, p2Symbol;
 	private int count;
 	private static final char EMPTY = ' ';
-	
+
+	//This is going to draw the board of the game
 	public Board(char p1Symbol, char p2Symbol) {
 		for(int i = 0; i < boardSize; i++) {
 			for(int j = 0; j < boardSize; j++) {
